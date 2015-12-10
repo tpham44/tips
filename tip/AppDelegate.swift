@@ -1,7 +1,7 @@
 //
 //  AppDelegate.swift
 //  tip
-//
+//  Name: THANH PHAM
 //  Created by JP on 12/7/15.
 //  Copyright © 2015 codepath. All rights reserved.
 //
