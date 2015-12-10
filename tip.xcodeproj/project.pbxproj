@@ -22,6 +22,7 @@
 		81047F361C167E7400D093C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81047F391C167E7400D093C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81047F3B1C167E7400D093C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81047F421C1680B900D093C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,9 @@
 		81047F241C167E7400D093C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					uilabel,
+				);
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = codepath;
@@ -148,6 +152,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				81047F341C167E7400D093C0 /* Base */,
+				81047F421C1680B900D093C0 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
