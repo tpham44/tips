@@ -12,6 +12,8 @@
 		81047F351C167E7400D093C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81047F331C167E7400D093C0 /* Main.storyboard */; };
 		81047F371C167E7400D093C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81047F361C167E7400D093C0 /* Assets.xcassets */; };
 		81047F3A1C167E7400D093C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81047F381C167E7400D093C0 /* LaunchScreen.storyboard */; };
+		811DFABD1C1E2CCF008E5251 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DFABC1C1E2CCF008E5251 /* SettingsViewController.swift */; };
+		8167A9131C1CAD2C0097674A /* tip.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = 8167A9121C1CAD2C0097674A /* tip.xcodeproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		81047F391C167E7400D093C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81047F3B1C167E7400D093C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81047F421C1680B900D093C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		811DFABC1C1E2CCF008E5251 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8167A9121C1CAD2C0097674A /* tip.xcodeproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "wrapper.pb-project"; name = tip.xcodeproj; path = ../tip.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +59,21 @@
 		81047F2E1C167E7400D093C0 /* tip */ = {
 			isa = PBXGroup;
 			children = (
+				811DFABC1C1E2CCF008E5251 /* SettingsViewController.swift */,
 				81047F2F1C167E7400D093C0 /* AppDelegate.swift */,
 				81047F311C167E7400D093C0 /* ViewController.swift */,
 				81047F331C167E7400D093C0 /* Main.storyboard */,
+				8167A9121C1CAD2C0097674A /* tip.xcodeproj */,
 				81047F361C167E7400D093C0 /* Assets.xcassets */,
 				81047F381C167E7400D093C0 /* LaunchScreen.storyboard */,
 				81047F3B1C167E7400D093C0 /* Info.plist */,
 			);
 			path = tip;
+			sourceTree = "<group>";
+		};
+		811DFAB91C1E2B2E008E5251 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +126,12 @@
 			mainGroup = 81047F231C167E7400D093C0;
 			productRefGroup = 81047F2D1C167E7400D093C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 811DFAB91C1E2B2E008E5251 /* Products */;
+					ProjectRef = 8167A9121C1CAD2C0097674A /* tip.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				81047F2B1C167E7400D093C0 /* tip */,
@@ -142,6 +159,8 @@
 			files = (
 				81047F321C167E7400D093C0 /* ViewController.swift in Sources */,
 				81047F301C167E7400D093C0 /* AppDelegate.swift in Sources */,
+				8167A9131C1CAD2C0097674A /* tip.xcodeproj in Sources */,
+				811DFABD1C1E2CCF008E5251 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tip;
@@ -264,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tip;
@@ -290,6 +311,7 @@
 				81047F401C167E7400D093C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

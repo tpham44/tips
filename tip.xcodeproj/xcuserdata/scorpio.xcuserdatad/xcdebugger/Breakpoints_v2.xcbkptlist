@@ -6,17 +6,126 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tip/SettingsViewController.swift"
+            timestampString = "472159567.769941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "saveTipValues(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tip/ViewController.swift"
-            timestampString = "471411512.517221"
+            timestampString = "472158544.421414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "didReceiveMemoryWarning()"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "setTipValues()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tip/SettingsViewController.swift"
+            timestampString = "472159567.769941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "SettingsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tip.SettingsViewController.lowestTip.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Float&gt;"
+                  moduleName = "tip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scorpio/Desktop/CCSF-CodePathU/MyApp/tip/SettingsViewController.swift"
+                  timestampString = "472026661.238042"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tip.SettingsViewController.lowestTip.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Float&gt;"
+                  moduleName = "tip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scorpio/Desktop/CCSF-CodePathU/MyApp/tip/SettingsViewController.swift"
+                  timestampString = "472026661.239243"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tip.SettingsViewController.lowestTip.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Float&gt;"
+                  moduleName = "tip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scorpio/Desktop/CCSF-CodePathU/MyApp/tip/SettingsViewController.swift"
+                  timestampString = "472026661.240362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tip.SettingsViewController.init (tip.SettingsViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; tip.SettingsViewController"
+                  moduleName = "tip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scorpio/Desktop/CCSF-CodePathU/MyApp/tip/SettingsViewController.swift"
+                  timestampString = "472026661.241304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tip.SettingsViewController.init (tip.SettingsViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tip.SettingsViewController&gt;"
+                  moduleName = "tip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scorpio/Desktop/CCSF-CodePathU/MyApp/tip/SettingsViewController.swift"
+                  timestampString = "472026661.241939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "251">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
