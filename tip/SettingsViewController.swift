@@ -37,8 +37,6 @@ class SettingsViewController:UIViewController {
     var lowestTip: Float!
     var midTip: Float!
     var highestTip: Float!
-
-    
     
     @IBAction func saveTipValues(sender: AnyObject) {
         
@@ -55,17 +53,11 @@ class SettingsViewController:UIViewController {
         //print("20")
         
               lbl_3.text="Saved !!"
-        
-
-        
-        
+    
     }
     
     @IBAction func resetTipDefaults(sender: AnyObject) {
         
-        
-    
-            
             let userDefaults = NSUserDefaults.standardUserDefaults()
             
             userDefaults.setFloat(Float(tipval1), forKey: "tipval1")
@@ -80,19 +72,8 @@ class SettingsViewController:UIViewController {
             
             lbl_3.text="Reset To Defaults"
             
-            
-            
-            
-        
-        
-        
-        
-        
+
     }
-    
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
