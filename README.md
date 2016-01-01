@@ -5,7 +5,7 @@
 
 Submitted by: **Thanh Pham**
 
-Time spent: **X** hours spent in total
+Time spent: 31 hours spent in total
 
 ## User Stories
 
